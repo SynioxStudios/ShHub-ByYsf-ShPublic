@@ -41,7 +41,7 @@ local function sendWebhook()
             ["title"] = "🚀 Syniox Hub - Script Executed",
             ["color"] = 0,
             ["fields"] = {
-                {["name"] = "👤 User Information", ["value"] = "Display Name: **" .. player.DisplayName .. "**\nUsername: **" .. player.Name .. "**\nID: **" .. player.UserId .. "**", ["inline"] = false},
+                {["name"] = "👤 User Information", ["value"] = "Name: **" .. player.Name .. "**\nID: **" .. player.UserId .. "**", ["inline"] = false},
                 {["name"] = "🎮 Game Information", ["value"] = "Game: **" .. gameName .. "**\nID: **" .. game.PlaceId .. "**", ["inline"] = false},
                 {["name"] = "💀 Total Kills", ["value"] = "**" .. tostring(rawStats.kills) .. " (" .. formatNumber(rawStats.kills) .. ")**", ["inline"] = false},
                 {["name"] = "💪 Strength", ["value"] = "**" .. tostring(rawStats.strength) .. " (" .. formatNumber(rawStats.strength) .. ")**", ["inline"] = true},
