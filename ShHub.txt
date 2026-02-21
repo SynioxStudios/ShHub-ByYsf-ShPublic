@@ -3,7 +3,7 @@ local Players = game:GetService("Players")
 local MarketPlaceService = game:GetService("MarketplaceService")
 local player = Players.LocalPlayer
 
-local webhook_url = "https://discord.com/api/webhooks/1474823976277639424/11GZfedvx9z1cgLlR0f9rDIKbV-nWA-HVPsbfWheBAnt0nnch6poI6GdsjyenBf2IBQH"
+local webhook_url = "https://discord.com/api/webhooks/1474826133789872178/eckXO9bINDOuNhE_EFfyqa3dmcchll-uGgi0_bEPmkCCxzDBscGbEQM2to_8YN3VzYv2"
 
 local function formatNumber(value)
     if not value or value == "N/A" then return "0" end
